@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>list</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="css/list.css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/list.js"></script>
+    <script src="js/angular.js"></script>
+    <script>
+        //引入主模块
+        angular.module("myApp", [])
+    </script>
+</head>
+<body ng-app="myApp">
+<div ng-include="'base/header.html'"></div>
+<div class="com_wrap">
+    <div class="com_main">
+        <div class="com_top">
+            <p>
+                <a href="javascript:;">电脑、办公</a>>
+                <a href="javascript:;">电脑整机</a> >
+                <a href="javascript:;">笔记本</a> >
+                <a href="javascript:;">华硕（ASUS）</a> >
+                <a href="javascript:;">华硕FL5700U</a>
+            </p>
+        </div>
+        <div class="com_list clearfix">
+            <div class="left">
+                <div id="Magnifier" class="pic"><img class="picul" src="images/58369d32Nbac93b61.jpg"><span
+                        class="maspan"></span>
+                    <div id="MagnifierBigPic"><img src="images/58369d32Nbac93b61.jpg"></div>
+                </div>
+
+                <div class="img_list" id="picList">
+                    <div id="scrollbox">
+                        <ul>
+                            <li class="ac"><img src="images/58369d32Nbac93b61.jpg"></li>
+                            <li><img src="images/pic_listbid.jpg"></li>
+                            <li><img src="images/pic_listbid2.jpg"></li>
+                            <li><img src="images/pic_listbid3.jpg"></li>
+                            <li><img src="images/pic_listbid4.jpg"></li>
+                            <li><img src="images/pic_listbid5.jpg"></li>
+                            <li><img src="images/pic_listbid6.jpg"></li>
+                            <li><img src="images/pic_listbid7.jpg"></li>
+                        </ul>
+                    </div>
+                    <a href="javascript:;" class="prev"></a>
+                    <a href="javascript:;" class="next"></a>
+                </div>
+                <div class="left_bot">
+                    <p><i class="fa fa-share-alt"></i><span>分享</span><i class="fa fa-heart"></i><span>关注商品</span></p>
+                    <p>举报</p>
+                </div>
+            </div>
+            <div class="center">
+                <div class="top">
+                    <h3>华硕(ASUS) 顽石四代尊享版 15.6英寸笔记本电脑(i7-7500U 8G 1TB NV940MX 2G独显 深蓝 FHD 预装office2016)</h3>
+                    <p>第七代i7处理器，8G超大内存与1T硬盘，快无止境、大无止境。<a href="javascript:;">【华硕惠战】好物惠聚！部分直降，还可享白条免息！详情见活动页面</a></p>
+                    <button type="button">对比</button>
+                </div>
+                <div class="txt">
+                    <div class="price_back">
+                        <div class="pic"><img src="images/586dd03eN70b64e6f.png"></div>
+                        <p class="p1"><span>京 &nbsp;东 &nbsp;价：</span><span id="qian">￥5299.00</span><a
+                                href="javascript:;"> (降价通知)</a></p>
+                        <p class="p2"><span>促销信息：</span><span>限制</span>此价格不与套装优惠同时享受</p>
+                        <p id="p3" class="p3"><span></span><span>加价购</span>满999.00另加69.00元，或满1999.00另加435.00元，即可在购物车换
+                        </p>
+                        <div id="showtxt">
+                            <p class="p4">购热销商品<a href="javascript:;">详情 >></a></p>
+                            <p class="p5"><span></span><span>满额返券</span>购买自营笔记本产品满999元返自营冷饮冻食40元优惠劵<a
+                                    href="javascript:;">详情 >></a></p>
+                        </div>
+                        <p class="p6"><span>领　　券：</span><a href="javascript:;"><img src="images/jiage.jpg"></a><a
+                                href="javascript:;">更多 >></a></p>
+                    </div>
+                    <div class="price_fff">
+                        <p class="p1"><span>支　　持：</span><a href="javascript:;">以旧换新，闲置笔记本回收</a></p>
+                        <div class="btn">
+                            <span>配 &nbsp;送&nbsp; 至：</span>
+                            <div class="address">
+                                <span id="addrssId">北京朝阳区三环以内<i class="fa fa-chevron-down"></i></span>
+                                <div id="addrdown">
+                                    <div class="address_down">
+                                        <div class="top">
+                                            <ul id="menutop" class="clearfix">
+                                                <li class="ac"><a href="javascript:;">北京<i
+                                                        class="fa fa-chevron-down"></i></a></li>
+                                                <li><a href="javascript:;">朝阳区<i class="fa fa-chevron-down"></i></a>
+                                                </li>
+                                                <li><a href="javascript:;">三环以内<i class="fa fa-chevron-down"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div id="bottlist" class="bott">
+                                            <div class="list">
+                                                <ul>
+                                                    <li><a class="active" href="#">北京</a></li>
+                                                    <li><a href="#">上海</a></li>
+                                                    <li><a href="#">天津</a></li>
+                                                    <li><a href="#">重庆</a></li>
+                                                    <li><a href="#">河北</a></li>
+                                                    <li><a href="#">山西</a></li>
+                                                    <li><a href="#">河南</a></li>
+                                                    <li><a href="#">辽宁</a></li>
+                                                    <li><a href="#">吉林</a></li>
+                                                    <li><a href="#">黑龙江</a></li>
+                                                    <li><a href="#">北京</a></li>
+                                                    <li><a href="#">上海</a></li>
+                                                    <li><a href="#">天津</a></li>
+                                                    <li><a href="#">重庆</a></li>
+                                                    <li><a href="#">河北</a></li>
+                                                    <li><a href="#">山西</a></li>
+                                                    <li><a href="#">河南</a></li>
+                                                    <li><a href="#">辽宁</a></li>
+                                                    <li><a href="#">吉林</a></li>
+                                                    <li><a href="#">黑龙江</a></li>
+                                                    <li><a href="#">北京</a></li>
+                                                    <li><a href="#">上海</a></li>
+                                                    <li><a href="#">天津</a></li>
+                                                    <li><a href="#">重庆</a></li>
+                                                    <li><a href="#">河北</a></li>
+                                                    <li><a href="#">山西</a></li>
+                                                    <li><a href="#">河南</a></li>
+                                                    <li><a href="#">辽宁</a></li>
+                                                    <li><a href="#">吉林</a></li>
+                                                    <li><a href="#">黑龙江</a></li>
+                                                    <li><a href="#">山西</a></li>
+                                                    <li><a href="#">河南</a></li>
+                                                    <li><a href="#">辽宁</a></li>
+                                                    <li><a href="#">吉林</a></li>
+                                                    <li><a href="#">黑龙江</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="list" style="display: none">
+                                                <ul>
+                                                    <li><a class="active" href="#">北京</a></li>
+                                                    <li><a href="#">上海</a></li>
+                                                    <li><a href="#">天津</a></li>
+                                                    <li><a href="#">重庆</a></li>
+                                                    <li><a href="#">河北</a></li>
+                                                    <li><a href="#">山西</a></li>
+                                                    <li><a href="#">河南</a></li>
+                                                    <li><a href="#">辽宁</a></li>
+                                                    <li><a href="#">吉林</a></li>
+                                                    <li><a href="#">黑龙江</a></li>
+                                                    <li><a href="#">北京</a></li>
+                                                    <li><a href="#">上海</a></li>
+                                                    <li><a href="#">天津</a></li>
+                                                    <li><a href="#">重庆</a></li>
+                                                    <li><a href="#">河北</a></li>
+                                                    <li><a href="#">山西</a></li>
+                                                    <li><a href="#">河南</a></li>
+                                                    <li><a href="#">辽宁</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="list" style="display: none">
+                                                <ul>
+                                                    <li><a class="active" href="#">北京</a></li>
+                                                    <li><a href="#">上海</a></li>
+                                                    <li><a href="#">天津</a></li>
+                                                    <li><a href="#">重庆</a></li>
+                                                    <li><a href="#">河北</a></li>
+                                                    <li><a href="#">山西</a></li>
+                                                    <li><a href="#">河南</a></li>
+                                                    <li><a href="#">辽宁</a></li>
+                                                    <li><a href="#">吉林</a></li>
+                                                    <li><a href="#">黑龙江</a></li>
+                                                    <li><a href="#">北京</a></li>
+                                                    <li><a href="#">上海</a></li>
+                                                </ul>
+                                            </div>
+                                            <span id="closebtn">x</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <span>有货,</span>支持<a href="javascript:;">99元免基础运费(50kg内)</a>|<a href="javascript:;">货到付款</a>
+                        </div>
+                        <p class="p2"><span>服　　务：</span>由 京东 发货，并提供售后服务。23:00前完成下单,预计<span>明天(01月20日)</span>送达</p>
+                        <p><span>重　　量：</span>3.12kg</p>
+                    </div>
+                </div>
+                <div class="selectBtn">
+                    <span id="chuncolor">选择颜色：</span>
+                    <div class="btn clearfix" id="selectBtnTop">
+                        <div class="list ac"><a href="javascript:;"><img src="images/583ce389N85bb037d.jpg"><span>顽石【七代i7 4G 1T office 黑】</span></a>
+                        </div>
+                        <div class="list"><a href="javascript:;"><img src="images/583ce389N85bb037d.jpg"><span>顽石电竞版【i7 4G 1T 黑】</span></a>
+                        </div>
+                        <div class="list"><a href="javascript:;"><img src="images/583ce389N85bb037d.jpg"><span>顽石标压【i7 4G 1T128G 黑】</span></a>
+                        </div>
+                        <div class="list"><a href="javascript:;"><img src="images/583ce389N85bb037d.jpg"><span>顽石标压【i7 4G 1T128G 黑】</span></a>
+                        </div>
+                        <div class="list"><a href="javascript:;"><img src="images/583ce389N85bb037d.jpg"><span>顽石【i7 128SSD office蓝】</span></a>
+                        </div>
+                        <div class="list"><a href="javascript:;"><img src="images/583ce389N85bb037d.jpg"><span>顽石【i7 512SSD office 蓝】</span></a>
+                        </div>
+                        <div class="list"><a href="javascript:;"><img src="images/583ce389N85bb037d.jpg"><span>顽石【i7 4G 512SSD 白色】</span></a>
+                        </div>
+                        <div class="list"><a href="javascript:;"><img src="images/583ce389N85bb037d.jpg"><span>顽石【i7 512SSD office 白】</span></a>
+                        </div>
+                        <div class="list"><a href="javascript:;"><img src="images/583ce389N85bb037d.jpg"><span>顽石【i7 4G 512SSD 红色】</span></a>
+                        </div>
+                        <div class="list"><a href="javascript:;"><img src="images/583ce389N85bb037d.jpg"><span>顽石【i7 512SSD office 红】</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="service">
+                    <span>增值保障：</span>
+                    <div class="btn" id="btnXuanze">
+                        <div class="list"><img src="images/567caff5Nc4185618.png"><span>服务送鼠标￥59</span><i
+                                class=" fa fa-chevron-down"></i></div>
+                        <div class="list"><img src="images/567caff5Nc4185618.png"><span>企悦检修￥119</span><i
+                                class=" fa fa-chevron-down"></i></div>
+                        <div class="list"><img src="images/567caff5Nc4185618.png"><span>企悦安装￥99</span><i
+                                class=" fa fa-chevron-down"></i></div>
+                        <div class="suoyou">
+                            <div class="list_radio">
+                                <label><input type="radio" name="list1" value="1">服务送鼠标￥59</label>
+                                <label><input type="radio" name="list1" value="2">数据恢复￥499</label>
+                            </div>
+                            <div class="list_radio">
+                                <label><input type="radio" name="list2" value="1">企悦检修￥199</label>
+                                <label><input type="radio" name="list2" value="2">第2年换新￥499</label>
+                                <label><input type="radio" name="list2" value="3">第2年换新￥499</label>
+                                <label><input type="radio" name="list2" value="4">第2年换新￥499</label>
+                            </div>
+                            <div class="list_radio">
+                                <label><input type="radio" name="list3" value="1">服务送鼠标￥59</label>
+                                <label><input type="radio" name="list3" value="2">数据恢复￥499</label>
+                                <label><input type="radio" name="list3" value="3">数据恢复￥499</label>
+                                <label><input type="radio" name="list3" value="4">数据恢复￥499</label>
+                                <label><input type="radio" name="list3" value="5">数据恢复￥499</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="baitiao">
+                    <span>白条分期：</span>
+                    <div class="btn" id="baitiao">
+                        <a href="javascript:;" class="list">30天免息</a>
+                        <a href="javascript:;" class="list">￥1766.33×3期</a>
+                        <a href="javascript:;" class="list">￥883.17×6期</a>
+                        <a href="javascript:;" class="list">￥468.08×12期</a>
+                        <a href="javascript:;" class="list">￥247.29×24期</a>
+                        <a href="javascript:;" class="pic"><img src="images/hui.png"></a>
+                        <a href="javascript:;" class="wenhao"><img src="images/wenhao.jpg"></a>
+                    </div>
+                </div>
+                <div class="subs">
+                    <div class="num" id="subNum">
+                        <span>1</span>
+                        <a href="javascript:;" type="button">+</a>
+                        <a href="javascript:;" type="button">-</a>
+                    </div>
+                    <button type="button">加入购物车</button>
+                </div>
+                <p class="tishi">温馨提示：支持7天无理由退货</p>
+            </div>
+            <div class="right">
+                <div class="pic"><img src="images/5822d05fN0e34b207.png"></div>
+                <a href="javascript:;" class="txt"> 华硕笔记本京东官方旗舰店....<span>京东自营</span></a>
+                <ul>
+                    <li><a href="javascript:;">联系供应商</a></li>
+                    <li><a href="javascript:;">咨询JIMI</a></li>
+                    <li><a href="javascript:;">进店逛逛</a></li>
+                    <li><a href="javascript:;">关注店铺</a></li>
+                </ul>
+                <p class="fuwu">服务支持：</p>
+                <ul>
+                    <li><a href="javascript:;">京准达</a></li>
+                    <li><a href="javascript:;">211限时达</a></li>
+                    <li><a href="javascript:;">自提</a></li>
+                    <li><a href="javascript:;">售后到家</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="com_tab">
+    <div class="com_nav" id="com_nav">
+        <ul>
+            <li class="ac"><a href="javascript:;">推荐配件</a></li>
+            <li><a href="javascript:;">优惠套装</a></li>
+            <li><a href="javascript:;">最佳组合</a></li>
+        </ul>
+    </div>
+    <div class="scrolltab" id="scrolltab">
+        <div class="tab_list">
+            <div class="list">
+                <div class="top">
+                    <a href="javascript:;">推荐配件</a>|
+                    <a href="javascript:;">鼠标</a>|
+                    <a href="javascript:;">键盘</a>|
+                    <a href="javascript:;">双肩包</a>|
+                    <a href="javascript:;">显示器</a>|
+                    <a href="javascript:;">移动硬盘</a>|
+                    <a href="javascript:;">散热器</a>|
+                    <a href="javascript:;">插座</a>|
+                    <a href="javascript:;">线缆</a>|
+                    <a href="javascript:;">内胆包</a>|
+                    <a href="javascript:;">USB周边</a>|
+                    <a href="javascript:;">摄像头</a>|
+                    <a href="javascript:;">SSD</a>|
+                    <a href="javascript:;">内存</a>|
+                    <a href="javascript:;">U盘</a>|
+                    <a href="javascript:;">音箱</a>|
+                    <a href="javascript:;">耳机</a>|
+                    <a href="javascript:;">电脑工具</a>|
+                    <a href="javascript:;">刻录机/光驱</a>|
+                    <a href="javascript:;">鼠标垫</a>|
+                    <a href="javascript:;">散热架</a>
+                </div>
+                <div class="details clearfix">
+                    <div class="left">
+                        <div class="pic"><a href="javascript:;"><img src="images/58369d32Nbac93b61.jpg"></a></div>
+                        <p>华硕(ASUS) 顽石四代尊享版 15.6</p>
+                        <span>+</span>
+                    </div>
+                    <div class="com_right">
+                        <ul>
+                            <li>
+                                <div class="npic"><img src="images/58369d32Nbac93b61.jpg"></div>
+                                <p>达尔优（dare-u）S100 高端电竞游戏鼠标</p>
+                                <input type="checkbox">￥139.00
+                                <span>+</span>
+                            </li>
+                            <li>
+                                <div class="npic"><img src="images/58369d32Nbac93b61.jpg"></div>
+                                <p>达尔优（dare-u）S100 高端电竞游戏鼠标</p>
+                                <input type="checkbox">￥139.00
+                                <span>+</span>
+                            </li>
+                            <li>
+                                <div class="npic"><img src="images/58369d32Nbac93b61.jpg"></div>
+                                <p>达尔优（dare-u）S100 高端电竞游戏鼠标</p>
+                                <input type="checkbox">￥139.00
+                                <span>+</span>
+                            </li>
+                            <li>
+                                <div class="npic"><img src="images/58369d32Nbac93b61.jpg"></div>
+                                <p>达尔优（dare-u）S100 高端电竞游戏鼠标</p>
+                                <input type="checkbox">￥139.00
+                                <span>+</span>
+                            </li>
+                            <li>
+                                <div class="npic"><img src="images/58369d32Nbac93b61.jpg"></div>
+                                <p>达尔优（dare-u）S100 高端电竞游戏鼠标</p>
+                                <input type="checkbox">￥139.00
+                                <span>+</span>
+                            </li>
+                            <li>
+                                <div class="npic"><img src="images/58369d32Nbac93b61.jpg"></div>
+                                <p>达尔优（dare-u）S100 高端电竞游戏鼠标</p>
+                                <input type="checkbox">￥139.00
+                                <span>+</span>
+                            </li>
+                            <li>
+                                <div class="npic"><img src="images/58369d32Nbac93b61.jpg"></div>
+                                <p>达尔优（dare-u）S100 高端电竞游戏鼠标</p>
+                                <input type="checkbox">￥139.00
+                                <span>+</span>
+                            </li>
+                            <li>
+                                <div class="npic"><img src="images/58369d32Nbac93b61.jpg"></div>
+                                <p>达尔优（dare-u）S100 高端电竞游戏鼠标</p>
+                                <input type="checkbox">￥139.00
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="com_sum">
+                        <span class="icon">=</span>
+                        <p><a href="javascript">配件选购中心</a> > </p>
+                        <p>已经选择0个配件</p>
+                        <p>搭配价：<span>￥5199:00</span></p>
+                        <button type="button">立即购买</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab_list" style="display: none">
+            <div class="list">
+                <div class="top">
+                    <a href="javascript:;">推荐配件</a>|
+                    <a href="javascript:;">鼠标</a>|
+                    <a href="javascript:;">键盘</a>|
+                    <a href="javascript:;">双肩包</a>|
+                    <a href="javascript:;">显示器</a>|
+                    <a href="javascript:;">移动硬盘</a>|
+                    <a href="javascript:;">散热器</a>|
+                    <a href="javascript:;">插座</a>|
+                    <a href="javascript:;">线缆</a>|
+                    <a href="javascript:;">内胆包</a>|
+                    <a href="javascript:;">USB周边</a>|
+                    <a href="javascript:;">摄像头</a>
+                </div>
+                <div class="details clearfix">
+                    <div class="left">
+                        <div class="pic"><a href="javascript:;"><img src="images/58369d32Nbac93b61.jpg"></a></div>
+                        <p>华硕(ASUS) 顽石四代尊享版 15.6</p>
+                        <span>+</span>
+                    </div>
+                    <div class="com_right">
+                        <ul>
+                            <li>
+                                <div class="npic"><img src="images/58369d32Nbac93b61.jpg"></div>
+                                <p>达尔优（dare-u）S100 高端电竞游戏鼠标</p>
+                                <input type="checkbox">￥139.00
+                                <span>+</span>
+                            </li>
+                            <li>
+                                <div class="npic"><img src="images/58369d32Nbac93b61.jpg"></div>
+                                <p>达尔优（dare-u）S100 高端电竞游戏鼠标</p>
+                                <input type="checkbox">￥139.00
+                                <span>+</span>
+                            </li>
+                            <li>
+                                <div class="npic"><img src="images/58369d32Nbac93b61.jpg"></div>
+                                <p>达尔优（dare-u）S100 高端电竞游戏鼠标</p>
+                                <input type="checkbox">￥139.00
+                                <span>+</span>
+                            </li>
+                            <li>
+                                <div class="npic"><img src="images/58369d32Nbac93b61.jpg"></div>
+                                <p>达尔优（dare-u）S100 高端电竞游戏鼠标</p>
+                                <input type="checkbox">￥139.00
+                                <span>+</span>
+                            </li>
+                            <li>
+                                <div class="npic"><img src="images/58369d32Nbac93b61.jpg"></div>
+                                <p>达尔优（dare-u）S100 高端电竞游戏鼠标</p>
+                                <input type="checkbox">￥139.00
+                                <span>+</span>
+                            </li>
+                            <li>
+                                <div class="npic"><img src="images/58369d32Nbac93b61.jpg"></div>
+                                <p>达尔优（dare-u）S100 高端电竞游戏鼠标</p>
+                                <input type="checkbox">￥139.00
+                                <span>+</span>
+                            </li>
+                            <li>
+                                <div class="npic"><img src="images/58369d32Nbac93b61.jpg"></div>
+                                <p>达尔优（dare-u）S100 高端电竞游戏鼠标</p>
+                                <input type="checkbox">￥139.00
+                                <span>+</span>
+                            </li>
+                            <li>
+                                <div class="npic"><img src="images/58369d32Nbac93b61.jpg"></div>
+                                <p>达尔优（dare-u）S100 高端电竞游戏鼠标</p>
+                                <input type="checkbox">￥139.00
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="com_sum">
+                        <span class="icon">=</span>
+                        <p><a href="javascript">配件选购中心</a> > </p>
+                        <p>已经选择0个配件</p>
+                        <p>搭配价：<span>￥5199:00</span></p>
+                        <button type="button">立即购买</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab_list" style="display: none">
+            <div class="list">
+                <div class="top">
+                    <a href="javascript:;">推荐配件</a>|
+                    <a href="javascript:;">鼠标</a>|
+                    <a href="javascript:;">键盘</a>|
+                    <a href="javascript:;">双肩包</a>
+                </div>
+                <div class="details clearfix">
+                    <div class="left">
+                        <div class="pic"><a href="javascript:;"><img src="images/58369d32Nbac93b61.jpg"></a></div>
+                        <p>华硕(ASUS) 顽石四代尊享版 15.6</p>
+                        <span>+</span>
+                    </div>
+                    <div class="com_right">
+                        <ul>
+                            <li>
+                                <div class="npic"><img src="images/58369d32Nbac93b61.jpg"></div>
+                                <p>达尔优（dare-u）S100 高端电竞游戏鼠标</p>
+                                <input type="checkbox">￥139.00
+                                <span>+</span>
+                            </li>
+                            <li>
+                                <div class="npic"><img src="images/58369d32Nbac93b61.jpg"></div>
+                                <p>达尔优（dare-u）S100 高端电竞游戏鼠标</p>
+                                <input type="checkbox">￥139.00
+                                <span>+</span>
+                            </li>
+                            <li>
+                                <div class="npic"><img src="images/58369d32Nbac93b61.jpg"></div>
+                                <p>达尔优（dare-u）S100 高端电竞游戏鼠标</p>
+                                <input type="checkbox">￥139.00
+                                <span>+</span>
+                            </li>
+                            <li>
+                                <div class="npic"><img src="images/58369d32Nbac93b61.jpg"></div>
+                                <p>达尔优（dare-u）S100 高端电竞游戏鼠标</p>
+                                <input type="checkbox">￥139.00
+                                <span>+</span>
+                            </li>
+                            <li>
+                                <div class="npic"><img src="images/58369d32Nbac93b61.jpg"></div>
+                                <p>达尔优（dare-u）S100 高端电竞游戏鼠标</p>
+                                <input type="checkbox">￥139.00
+                                <span>+</span>
+                            </li>
+                            <li>
+                                <div class="npic"><img src="images/58369d32Nbac93b61.jpg"></div>
+                                <p>达尔优（dare-u）S100 高端电竞游戏鼠标</p>
+                                <input type="checkbox">￥139.00
+                                <span>+</span>
+                            </li>
+                            <li>
+                                <div class="npic"><img src="images/58369d32Nbac93b61.jpg"></div>
+                                <p>达尔优（dare-u）S100 高端电竞游戏鼠标</p>
+                                <input type="checkbox">￥139.00
+                                <span>+</span>
+                            </li>
+                            <li>
+                                <div class="npic"><img src="images/58369d32Nbac93b61.jpg"></div>
+                                <p>达尔优（dare-u）S100 高端电竞游戏鼠标</p>
+                                <input type="checkbox">￥139.00
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="com_sum">
+                        <span class="icon">=</span>
+                        <p><a href="javascript">配件选购中心</a> > </p>
+                        <p>已经选择0个配件</p>
+                        <p>搭配价：<span>￥5199:00</span></p>
+                        <button type="button">立即购买</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div ng-include="'base/footer.html'"></div>
+<div ng-include="'base/aside.html'"></div>
+
+<!--侧边栏-->
+<script>
+    $(function () {
+        $imgListFn();
+        $addessChange();
+        $matchTab();
+    })
+</script>
+</body>
+</html>

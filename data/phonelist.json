@@ -1,0 +1,17 @@
+[
+  {"id":1,"dis":"华为 畅享5S 金色 移动联通电信4G手机 双卡双待","price":949.00,"imgSrc":"57ff58e6Ne3a0d9c1.jpg","small":[
+    "meize01.jpg","meize02.jpg","meize03.jpg","meize04.jpg","meize05.jpg"
+  ]},
+  {"id":2,"dis":"一加手机3T (A3010) 6GB+64GB 枪灰版 全网通 双卡双待 移动联通电信","price":2799.00,"imgSrc":"5680a02dN848c1634.jpg","small":[
+    "zuk01.jpg","zuk02.jpg","zuk03.jpg","zuk04.jpg","zuk05.jpg"
+  ]},
+  {"id":3,"dis":"OPPO R9s 全网通4G+64G 双卡双待手机 玫瑰金","price":4949.00,"imgSrc":"58343dc1Nbb3d4722.jpg","small":[
+    "oppo01.jpg","oppo02.jpg","oppo03.jpg","oppo04.jpg","oppo05.jpg"
+  ]},
+  {"id":4,"dis":"乐视（LeEco）乐2 全网通（Le X520）3GB+32GB 原力金 移动联通","price":3949.00,"imgSrc":"5836668eN8b2a9cc4.png","small":[
+    "leEco01.jpg","leEco02.jpg","leEco03.jpg","leEco04.jpg","leEco05.jpg"
+  ]},
+  {"id":5,"dis":"vivo X9 全网通 4GB+64GB 移动联通电信4G手机 双卡双待 金色","price":2949.00,"imgSrc":"58981b78Nccd3d82b.jpg","small":[
+    "vivo01.jpg","vivo02.jpg","vivo03.jpg","vivo04.jpg","vivo05.jpg"
+  ]}
+]

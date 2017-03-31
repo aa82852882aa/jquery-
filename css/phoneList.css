@@ -1,0 +1,23 @@
+/*
+    初始化标签
+*/
+
+body,ul,li,dd,dl,dt,p,h1,h2,h3,h4,h5,h6,img,input,textarea,ol{ margin: 0; padding: 0;}
+ul{list-style: none}
+input,img{border: none}
+a{text-decoration: none}
+.clearFix:after{content:"200B"; font-size: 0; height: 0; display: block; clear: both}
+/*
+    头部区域
+*/
+header{height: 30px; background: #f1f1f1}
+nav{width: 1210px; margin: 0 auto}
+nav .addressCity{float: left; width: 60px; height: 30px; color: #6A6A6A; font-size: 12px; line-height: 30px; padding: 0 25px 0 10px; position: relative;border-right: 1px solid  transparent; border-left: 1px solid transparent}
+nav .addressCity:after{content: "^"; font-size: 45px; position: absolute; top: 17px; right: 5px; transition: all 0.5s; height: 0}
+.addressCity i{font-style: normal}
+nav .address:hover .addressCity{ background: #FFFFFF; height: 31px; border-right: 1px solid  #cccccc; border-left: 1px solid #cccccc}
+nav .address:hover .addressCity:after{transform: rotate(180deg); transition: all 0.5s}
+.address .city{width: 300px; height: auto; background: #FFFFFF; border: 1px solid #cccccc;text-align: left; padding: 10px; clear: both; position: absolute; top: 30px;}
+.address .city ul{width: 300px; height: auto}
+.address .city li{float: left; padding: 10px;}
+.address .city li:hover{ background: #ffa0a0}

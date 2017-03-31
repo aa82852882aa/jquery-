@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>search</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link type="text/css" rel="stylesheet" href="css/search.css">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/angular.js"></script>
+    <script>
+        //引入主模块
+        angular.module("myApp",[]);
+    </script>
+</head>
+<body ng-app="myApp">
+<div ng-include="'base/header.html'"></div>
+
+<div class="container searchPro">
+    <ul class="row" id="row"></ul>
+</div>
+
+<div ng-include="'base/footer.html'"></div>
+</body>
+</html>

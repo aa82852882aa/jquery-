@@ -1,0 +1,69 @@
+a{text-decoration: none}
+a:hover{text-decoration: none;}
+body{ background: #d8d8d8}
+ul{list-style: none; margin:0; padding: 0;}
+.clearFix:after{content: "200B";font-size: 0;height: 0;clear: both;display: none;}
+.row{margin-left: 350px; background: #ffffff; width: 1197px; margin-top: 100px;}
+.left{ padding: 0; width: 220px; background: #363f48; height: 573px;}
+.userPanel{height: 133px; background: #e45050; padding: 0 10px;}
+.userPanel h3{ height: 32px; font-size: 18px; color: #cccccc; line-height: 32px; margin: 0;}
+.userPanel .pic{height: 54px; float: left}
+.userPanel .pic img{height: 54px;width: auto; border: 2px solid #FFFFFF}
+.userMess{ float: left; margin-left:7px; color: #fff;}
+.userMess .userName{ font-size: 18px; color: #fff; font-weight: bold}
+.icon a{display: inline-block; }
+.icon a s{display:inline-block; width: 17px; height: 17px; background: url("../images/rank2014.gif") no-repeat 0 -17px; margin-right:10px;}
+.icon a i{display:inline-block; width: 80px; height: 17px; background: url("../images/plus.png") no-repeat 0 -26px }
+.searchIn{width: 198px;  padding-top: 6px; clear: both}
+.searchIn a{border-radius: 50%; background: #FFFFFF; border: none}
+.searchIn input{border-radius: 35px; border: none}
+.shop{height: 440px; background: #363f48}
+.officialPanel,.shopPanel{height: 60px; background: #2f363e}
+.officialPanel a,.shopPanel a{display: block; height: 60px; padding: 10px; color: #fff; font-weight: bolder}
+.officialPanel span:nth-of-type(1),.shopPanel span:nth-of-type(1){background: url("../images/03.png") no-repeat top left; background-size: 40px ; width: 40px; height: 40px; position: relative; display: inline-block; border-radius: 50%}
+.officialPanel span:nth-of-type(1) em,.shopPanel span:nth-of-type(1) em{ width: 30px; height: 20px; background: url("../images/bg_grade3.png")no-repeat top left; position: absolute; bottom: -10px;left: 5px;}
+.officialPanel span:nth-of-type(2),.shopPanel span:nth-of-type(2){ font-size: 13px;margin-top: -30px; position: relative; top: -25px;}
+.shopPanel{background: #363f48}
+.shopPanel span:nth-of-type(1){ background-image: url("../images/shophead.jpg")}
+.shopPanel span:nth-of-type(1) em{background-position: 0 -26px;}
+.center{ padding: 0; width: 637px;}
+.center .topTitle{height: 50px;border-left: 1px solid #ccc; line-height: 50px;}
+.center .topTitle i{width: 30px; height: 20px; display: inline-block;background: url("../images/bg_grade3.png")no-repeat top left; vertical-align: middle; margin-left: 11px; margin-right: 5px;}
+.center .topTitle em{width: 8px; height: 8px;background: #70d672; border-radius: 50%; display: inline-block; margin-left: 5px;}
+.center .content{height: 395px; overflow: auto; border: 1px solid #cccccc; }
+.center .content .innerCon{padding: 15px 40px 15px 15px; background: #e8e8e8; display: inline-block; border-radius: 10px; color: #00A0D1}
+.content .shopList{ padding: 20px; position: relative; clear: both; max-width: 400px;}
+.content .shopList:before{content: ""; width: 15px; height: 15px; background: url("../images/mesBgLR2.png")no-repeat 7px -7px; position: absolute; top: 48px; left: 5px;}
+.content .shopList span{ font-size: 12px; color: #cccccc; display: block; margin-left: 5px;}
+.content .shopList dl{padding: 15px 40px 15px 15px; background: #e8e8e8; display: inline-block; border-radius: 10px;}
+.content .shopList dt{font-size: 12px; color: #333; font-weight: normal; padding-bottom: 10px;}
+.content .shopList dd{ padding: 5px 0}
+.content .shopList dd a{ display: block; background: url("../images/help.png")no-repeat top left; padding-left: 25px; font-size: 12px; color: #369}
+.content .userList{ float: right; padding:15px 20px; background:#d8e8f9; border-radius: 10px; margin: 20px;position: relative; display: block; clear: both; max-width: 450px; min-width: 40px;}
+.content .userList:before{content: "";width: 15px; height: 15px; background: url("../images/mes_user2.png")no-repeat -38px -8px; position: absolute; top: 7px; right: -13px;}
+.content .userList .user{position: absolute; color: #e5e5e5; top: -22px; right: 2px;}
+.tools{height: 41px; padding: 10px 0;}
+.tools i{width: 22px; height: 22px; display: inline-block; background: url("../images/icon01.png") no-repeat 0 0; vertical-align: middle; margin-left: 20px;}
+.inputK{ border-right: 1px solid #cccccc; height: 128px;}
+.inputK .tools form{width: 22px; height: 22px; display: inline-block;overflow: hidden;  border: none; margin: 0; padding: 0;background: url("../images/icon01.png")no-repeat  -30px -2px; vertical-align: middle; margin-left: 10px;}
+.inputK .tools input{opacity: 0;}
+.inputK .tools .heart{display: inline-block;  background: url("../images/bg_star.png") no-repeat left top; padding-left: 30px; margin-left: 10px}
+.inputK .tools .zhuanfa{display: inline-block;  background: url("../images/help.png") no-repeat left 2px; padding-left: 25px; float: right; margin-right: 10px;}
+.inputGroup{height: 75px;}
+.inputGroup .divIn{height: 87px;width: 497px; float: left; border: none;overflow: auto; padding:0 15px; outline-color: transparent;}
+.inputGroup .sendBtn{height: 75px;width: 139px; float: right;}
+.inputGroup .divIn:focus{ outline-color: transparent;}
+.send, .dropdown{width: 80px; height: 35px; display: inline-block; background: red; text-align: center;line-height: 35px; color: #fff;font-size: 18px; margin-top: 40px; vertical-align: middle}
+.dropdown{width: 35px; height: 35px; margin-left: 1px; font-size: 12px; line-height: 18px; }
+.expression{width: 309px;height: 150px; position: absolute; border: 1px solid #cccccc; padding: 10px; bottom: 116px; left: 0; background: #FFFFFF; border-radius: 10px; box-shadow: 0 0 5px #ccc; overflow: auto}
+.expression ul li{float: left; padding: 2px;width: 24px;height: 24px; margin: 3px;cursor: pointer}
+.right{width: 340px; padding: 0;}
+.right .emptyTop{height: 50px;}
+.right .tabList{border:1px solid #cccccc;border-left: none}
+.right .tabList .tabTop{height: 36px;background: #eee}
+.tabTop li{width: 85px; height: 36px; border-top: 3px solid transparent; float: left;text-align: center; line-height: 33px; cursor: pointer}
+.tabList .ac{background: #fff;  color: #e9665e; border-color: #e9665e}
+.tabContent{height: 485px;}
+.cont{ text-align: center; padding-top:130px; }
+.cont span{display: block; color: #cccccc; margin-top: 20px;}
+.loginBox{width: 300px; height: 300px; margin: 200px auto}

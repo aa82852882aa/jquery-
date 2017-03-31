@@ -1,0 +1,164 @@
+.com_wrap{ background: #f2f2f2}
+.com_main{ width: 1210px; margin: 0 auto}
+.com_main .com_top p{line-height: 45px;font-size: 12px;}
+.com_main .com_top p a{color: #666666; margin: 0 10px;}
+.com_main .com_top p a:nth-of-type(1){color: #666666; font-size: 16px; font-weight: bolder}
+.com_main .com_top p a:hover{color: #c81623;}
+.com_list{ background: #fff; border-bottom: 1px solid #cdcdcd}
+.com_list .left{width: 378px; height: 378px; padding: 28px;  float: left;}
+.com_list .left .pic{width: 350px; height: 350px;/* overflow: hidden; */ position: relative}
+.com_list .left .pic .picul{width: 350px; height: 350px;}
+.com_list .left .pic .maspan{width: 150px; height: 150px; background: rgba(255,187,0,0.3);  position: absolute; top: 0; left: 0; display: none}
+#MagnifierBigPic{width: 450px; height: 450px; position: absolute; top: 0; right: -507px; border: 1px solid #CCCCCC; display: none; overflow: hidden}
+#MagnifierBigPic img{position: absolute; z-index: 9}
+
+.com_list .left .img_list{overflow: hidden; height: 56px;  position: relative; width: 360px; margin-left: 10px;}
+#scrollbox{overflow: hidden; width: 340px;}
+.com_list .left ul{ margin-left: 20px; height: 62px;}
+.com_list .left ul li{width: 62px; height: 56px; text-align: left;float: left; position: relative; font-size: 0; cursor: pointer}
+.com_list .left ul .ac img{border-color: #c81623}
+.com_list .left ul li img{width: 52px; height: 52px; border: 2px solid transparent; }
+.com_list .left .img_list a{width: 14px; height: 55px;border: 2px solid #fff; display: inline-block; position: absolute;background: url("../images/newicon20140910.png") no-repeat -56px -346px;}
+.com_list .left .img_list a:nth-of-type(1){ background-position: -56px -346px; bottom: 0; left: 0;}
+.com_list .left .img_list a:nth-of-type(2){ background-position: -70px -346px;bottom: 0; right: 0;}
+.com_list .left .img_list a:hover:nth-of-type(1){ background-position: -28px -346px;}
+.com_list .left .img_list a:hover:nth-of-type(2){ background-position: -42px -346px;}
+.com_list .left .left_bot{ line-height: 64px; font-size: 12px; color: #666666;}
+.com_list .left .left_bot p:nth-of-type(1){float: left; padding-left: 30px; }
+.com_list .left .left_bot p:nth-of-type(2){float: right;padding-right: 30px; }
+.com_list .left .left_bot p span{ padding-right: 10px;}
+.com_list .left .left_bot p i{color: #f8b600; padding-right: 5px;}
+.com_list .center{width: 588px; float: left;}
+.com_list .center .top{ position: relative}
+.com_list .center .top h3{font-size: 16px;color: #666666; line-height: 1.6em; padding-top: 14px; padding-right: 77px;}
+.com_list .center .top p{color: #e3393c; font-size: 14px; line-height: 20px; padding-right: 77px; padding-bottom: 10px;}
+.com_list .center .top p a{color: #005ea7;}
+.com_list .center .top button{width: 56px; height: 24px;background: #f5f5f5; border: 1px solid #ddd; position: absolute; top: 20px; right: 0; border-radius: 2px;}
+.com_list .price_back { background: #f7f7f7; font-size: 12px;}
+.com_list .price_back .pic img{width: 100%}
+.com_list .price_back p span:nth-of-type(1),.com_list .price_fff p span:nth-of-type(1),.com_list .price_fff .btn span:nth-of-type(1){ display: inline-block; width: 72px; height: 30px; text-align: right; line-height: 30px; color: #666666; vertical-align: middle}
+.com_list .price_back .p1 span:nth-of-type(2){ color: #e4393c; font-size: 20px;font-weight: bolder; line-height: 30px;}
+.com_list .price_back .p1 a{color: #666;}
+.com_list .price_back .p2 span:nth-of-type(2){background: #e4393c;color: #fff; padding: 1px 2px;display: inline-block; border-radius: 1px; margin-right: 8px;}
+.com_list .price_back .p2,.com_list .price_back .p3 {color: #e4393c}
+.com_list .price_back .p3 span:nth-of-type(2){background: #e4393c;color: #fff; padding: 1px 2px;display: inline-block; border-radius: 1px; margin-right: 8px;}
+.com_list .price_back .p4{margin-left: 72px; display: inline-block; color: #e4393c;}
+.com_list .price_back .p4 a,.com_list .price_back .p5 a,.com_list .price_back .p6 a{color: #666666; margin-left: 8px;}
+.com_list .price_back .p5{color: #e4393c;}
+.com_list .price_back .p5 span:nth-of-type(2){background: #e4393c;color: #fff; padding: 1px 2px;display: inline-block; border-radius: 1px; margin-right: 8px;}
+.com_list .price_back .p6 img{vertical-align: middle}
+.com_list .price_fff{font-size: 12px;}
+.com_list .price_fff .p1 a{color: #e4393c; background: url("../images/aicon.jpg")no-repeat center left; display: inline-block; height: 30px; line-height: 30px; padding-left: 25px;}
+.com_list .price_fff .btn .address{display: inline-block; position: relative; overflow: hidden}
+.com_list .price_fff .btn .address>span{width: 124px; height: 26px; border: 1px solid #CCCCCC; display: inline-block; text-align: left; padding-left: 5px;}
+.com_list .price_fff .btn .address i{margin-left: 2px;}
+.address_down{width: 400px; background: #fff; padding: 10px; font-size: 12px;border: 1px solid #CCCCCC; position: absolute; z-index: 3;top: 27px; left: -45px;}
+.address_down a{color: #005aa0}
+.address_down .top{height: 27px;}
+.address_down .top ul{border-bottom: 3px solid #edd28b;}
+.address_down .top li{float: left; border: 1px solid #CCCCCC; margin: 0 2px; border-bottom: none;height: 24px; }
+.address_down .top li a{padding: 5px 21px 3px 11px; display: inline-block; position: relative; border: 3px solid transparent; top: -1px; border-bottom: none; margin-left: -3px;}
+.address_down .top li a i{position: absolute; top: 5px; right: 5px;}
+.address_down .top .ac a{border-color: #edd28b; background: #fff; color: #666666}
+.address_down .top .ac{border-color: transparent}
+.address_down .list{margin-top: 10px;}
+.address_down .list li{float: left;width: 90px; height: 26px; margin-left: 30px;}
+.address_down .list li a{padding:3px 3px; display: inline-block}
+.address_down .list li a:hover{background: #005ea7; color: #fff;}
+#closebtn{position: absolute; top: -10px; right: -10px; width: 20px; height: 20px; background: #666666; border-radius: 50%; color: #fff; line-height: 20px;text-align:  center; font-size: 13px;}
+
+.com_list .price_fff .btn span:nth-of-type(2){font-size: 14px;font-weight: bolder; margin:0 3px;}
+.com_list .price_fff .btn>a{ color: #666; padding: 0 5px;}
+.com_list .price_fff .p2 span:nth-of-type(2){font-weight: bolder}
+.com_list .price_back a:hover{color: #e4393c}
+.com_list .price_fff a:hover{color: #e4393c}
+.center .txt{border-bottom: 1px dotted #CCCCCC}
+.center .selectBtn,.center .baitiao,.center .service{font-size: 12px; padding-top: 10px;}
+.center .selectBtn>span,.center .service>span,.center .baitiao>span{display: inline-block; width: 72px; text-align: right; line-height: 30px; color: #666666; vertical-align: middle; font-size: 12px; float: left}
+
+.center .selectBtn .list{border: 1px solid #CCCCCC; display: inline-block; margin: 3px;  float: left;height: 31px; line-height: 31px; }
+.center .selectBtn .list a{color: #666; padding: 0 5px;height: 29px; display: inline-block; border: 2px solid transparent}
+.center .selectBtn .list img{width: 25px; height: 25px; vertical-align: middle}
+.center .selectBtn .list span{padding: 0 3px; display: inline-block}
+.center .selectBtn .list:hover{border-color: transparent}
+.center .selectBtn .list:hover a{border-color: #e4393c; position: relative}
+.center .selectBtn .list:hover a:after{content: "";width: 10px; height: 10px; display: inline-block; position: absolute; right: 0; bottom: 0; background: url("../images/duihao.jpg")no-repeat}
+.center .selectBtn .ac{border-color: transparent}
+.center .selectBtn .ac a{border-color: #e4393c; position: relative}
+.center .selectBtn .ac a:after{content: "";width: 10px; height: 10px; display: inline-block; position: absolute; right: 0; bottom: 0; background: url("../images/duihao.jpg")no-repeat}
+
+.center .service .list{height: 31px; line-height: 31px; border: 1px solid #CCCCCC; display: inline-block; margin:0 3px; font-size: 12px; vertical-align: middle; position: relative; cursor: pointer}
+.center .service .list img{ width: 16px; height: 16px;vertical-align: middle; margin:0 5px;}
+.center .service .list i{padding: 0 5px;}
+.center .service .ac{border-color: #e4393c; position: relative}
+.center .service .ac:after{content: "";width: 10px; height: 10px; display: inline-block; position: absolute; right: 0; bottom: 0; background: url("../images/duihao.jpg")no-repeat}
+.list_radio{width: 200px; padding: 10px; border: 1px solid #CCCCCC; position: absolute; z-index: 3; background: #fff; margin-left: -1px;}
+.list_radio label{display: block; margin: 10px 20px; cursor: pointer}
+.list_radio label:hover{color: #e4393c}
+.list_radio label input{margin-right: 10px; list-style: square}
+.suoyou{position: relative}
+.list_radio:nth-of-type(1){ left: 76px;top: -1px;}
+.list_radio:nth-of-type(2){ left: 221px;top: -1px;}
+.list_radio:nth-of-type(3){ left: 360px;top: -1px;}
+.center .baitiao .list{height: 31px; line-height: 31px; border: 1px solid #CCCCCC; display: inline-block; padding: 0 5px; font-size: 12px; vertical-align: middle; margin: 0 3px; color: #666666}
+.center .baitiao .ac{border-color: #e4393c; position: relative}
+.center .baitiao .ac:after{content: "";width: 10px; height: 10px; display: inline-block; position: absolute; right: 0; bottom: 0; background: url("../images/duihao.jpg")no-repeat}
+.center .baitiao .pic{height: 31px; line-height: 31px; vertical-align: middle; display: inline-block; margin-top: 10px;}
+.center .baitiao .wenhao{height: 18px;width: 18px;display: inline-block; margin-left: 75px;margin-top: 5px;}
+.center .subs{ padding-top: 15px;}
+.center .subs .num{width: 51px; height: 36px; border: 1px solid #CCCCCC; position: relative; display: inline-block}
+.center .subs .num span{ width: 34px; height: 34px; display: inline-block; text-align: center; line-height: 34px;}
+.center .subs .num a{width: 17px; height: 19px; display: inline-block; position: absolute; border-left: 1px solid #CCCCCC; text-align: center; color: #666666}
+.center .subs .num a:nth-of-type(1){top: 0; right: 0; border-bottom: 1px solid #CCCCCC}
+.center .subs .num a:nth-of-type(2){bottom: 0; right: 0;}
+.center .subs button{width: 137px; height: 38px; background: #e4393c url("../images/car111111.jpg")no-repeat  9px center; border: none; color: #fff; font-size: 18px; font-weight: bolder;text-align: right; border-radius: 3px; vertical-align: middle}
+.center .tishi{ font-size: 12px; color: #666666; padding: 15px 0;}
+.right{padding: 20px 22px; float: left; width: 144px;}
+.right .pic{width: 144px;height: 60px; padding: 10px 0; text-align: center; border-bottom: 1px dotted #CCCCCC; border-top: 1px dotted #CCCCCC}
+.right .pic img{width: 134px; height: 60px;}
+.right .txt{font-size: 12px; line-height: 21px; padding: 5px 0; color: #666666}
+.right .txt span{ display: inline-block; background: #e4393c; padding: 1px; border-radius: 2px; color: #fff}
+.right ul:nth-of-type(1){ padding-top: 10px;}
+.right ul:nth-of-type(1) li{width: 66px; height: 30px; border: 1px solid #cdcdcd; background: #f9f9f9;font-size: 12px; line-height: 30px; text-align: center; float: left; margin: 2px;}
+.right ul:nth-of-type(1) li a{color: #666;}
+.right .fuwu{font-size: 12px; padding: 10px 0; clear: both}
+.right ul:nth-of-type(2) li{width: 66px; height: 30px;font-size: 12px; line-height: 30px; text-align: left; float: left; margin: 2px;}
+.right ul:nth-of-type(2) li a{color: #6a77b6;}
+.right a:hover{color: #e4393c}
+.com_tab{width: 1210px; margin: 10px auto; border-left: 1px solid #CCCCCC; border-right: 1px solid #CCCCCC; }
+.com_tab .com_nav{height: 29px; border-bottom: 1px solid #ddd; border-top: 2px solid #999; background: #f7f7f7}
+.com_tab .com_nav ul li{ float: left;  font-size: 15px; font-weight: bolder; height: 30px;line-height: 30px;}
+.com_tab .com_nav ul li a{color: #666666; border-top: 2px solid transparent; display: inline-block;padding: 0 12px;}
+.com_tab .com_nav ul .ac a{ margin-top: -6px; border-color: #e4393c; background: #fff;display: inline-block;padding: 4px 12px 0 12px;border-left: 1px solid #CCCCCC; border-right: 1px solid #CCCCCC; margin-left: -1px; color: #e4393c;}
+.com_tab .com_nav ul li:hover a{color: #e4393c}
+.com_tab .tab_list .list .top{ padding: 10px 10px;}
+.com_tab .tab_list .list .top a{ padding: 5px 14px; font-size: 12px; color: #005aa0; display: inline-block}
+.com_tab .tab_list .list .top a:nth-of-type(1){color: #e4393c}
+.com_tab .tab_list .list .top a:hover{ color: #e4393c}
+.com_tab .tab_list .list .details{}
+.com_tab .tab_list .list .details .left{width: 160px; float: left; position: relative}
+.com_tab .tab_list .list .details .left .pic{width: 100px; height: 100px;  margin: 0 auto}
+.com_tab .tab_list .list .details .left .pic img{width: 100px; height: 100px;}
+.com_tab .tab_list .list .details .left p{font-size: 12px; padding: 0 30px;}
+.com_tab .tab_list .list .details .left span{ position: absolute;  top: 40px; right: -20px; font-size: 50px; font-weight: bolder; color: #cccccc}
+.com_tab .tab_list .list .details .com_right{float: left; position: relative; margin-left: 30px; width: 787px; overflow-x: scroll; height: 200px}
+.com_tab .tab_list .list .details .com_right ul{width: 1530px;}
+.com_tab .tab_list .list .details .com_right ul li{width: 160px; float: left; position: relative; font-size: 12px; margin-left: 30px;}
+.com_tab .tab_list .list .details .com_right ul li img{width: 100px; height: 100px;}
+.com_tab .tab_list .list .details .com_right ul li p{font-size: 12px;}
+.com_tab .tab_list .list .details .com_right ul li input{margin-top: 10px;}
+.com_tab .tab_list .list .details .com_right ul li span{position: absolute;  top: 40px; right: -20px; font-size: 50px; font-weight: bolder; color: #cccccc}
+.com_tab .tab_list .list .details .com_sum{position: relative; float: left; padding-left: 50px;font-size: 12px; line-height: 30px}
+.com_tab .tab_list .list .details .com_sum .icon{position: absolute;  top: 40px; left: -20px; font-size: 50px; font-weight: bolder; color: #cccccc; margin-left: 30px;}
+.com_tab .tab_list .list .details .com_sum p:nth-of-type(1) a{color: #005AA0; font-weight: bolder}
+.com_tab .tab_list .list .details .com_sum button{width: 77px; height: 25px; background: #e4393c; border-radius: 3px;color: #fff; border: none;}
+.bask{width: 300px; position: absolute; top: 32px; right: -1px; background: #f9f9f9; z-index: 10; border: 1px solid #CCCCCC; padding: 2px 0;display: none}
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+}

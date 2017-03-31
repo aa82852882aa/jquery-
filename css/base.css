@@ -1,0 +1,15 @@
+.tabsList{width: 880px;}
+.tabsList li{width: 183px; height: 205px; padding: 21px 18px 10px; overflow: hidden; border-bottom: 1px solid #ccc; border-right: 1px solid #CCCCCC; float: left}
+.tabsList li .pic{height: 130px; overflow: hidden; font-size: 0;text-align: center}
+.tabsList img{width: 130px; height: 130px;}
+.tabsList li p{font-size: 12px;  line-height: 21px; padding: 5px 0 10px}
+.tabsList li p>a{color: #666;}
+.tabsList li span{color: #c81623}
+.dibu{border-bottom: 1px solid #ccc; border-right: 1px solid #CCCCCC}
+.acccc{width: 1000px;}
+.acccc li{width: 213px;}
+.nav_btn a{width: 55px;height: 100px; display: block; background: rgba(255,255,255,0.3); position: absolute; color: rgba(0,0,0,0.1); font-size: 50px; line-height: 100px; text-align: center; font-family: Consolas; transition: all 0.5s; border-radius: 5px;}
+.nav_btn .prev{ top: 40%; transform: translate(-50%); left: 27px;}
+.nav_btn .next{ top: 40%; transform: translate(-50%); right: -28px;}
+
+.nav_btn a:hover{ box-shadow: 0 0 10px 5px rgba(0,0,0,0.3); background: rgba(255,255,255,0.8);color: rgba(0,0,0,0.5);transition: all 0.5s;}

@@ -1,0 +1,362 @@
+/*内部样式区域*/
+
+@charset "utf-8";
+
+
+.nav .top .banner{ width: 730px; margin:12px 0 0 10px; font-size: 0;position: relative;  float: left;  height: 454px; overflow: hidden}
+.nav .top .banner .pic{ width: 730px; height: 454px; position: absolute; top: 0; left: 0; }
+/*.nav .top .banner .pic a{ width: 730px; display: block; height: 454px;}*/
+/*.nav .top .banner .pic ul{position: absolute; transition: all 0.5s}*/
+.nav .top .banner .pic li{ position: absolute; top: 0; left: 0;display: none}
+
+.nav .top .banner .icon{position: absolute; right: 300px; bottom: 15px; z-index: 3}
+.nav .top .banner .icon span{ width: 18px; height: 18px; display:inline-block; margin: 0 2px; background: #3e3e3e; text-align: center; line-height: 18px; color: #fff; font-size: 14px; border-radius: 50%;transition: all 0.5s}
+/*.nav .top .banner .icon .icon1{}*/
+.nav .top .banner .icon .active{background: #c81623; transition: all 0.5s}
+/*.nav .top .banner .icon span:hover{background: #c81623}*/
+
+.nav .top .news{ width: 250px; float: right ; padding-top: 12px;}
+.nav .top .news .news_top{width: 248px; border: 1px solid #e4e4e4}
+.nav .top .news .news_top .title{ height: 32px; border-bottom: 1px dotted #e8e8e7;}
+.nav .top .news .title h3{ font-size: 16px; color: #666; line-height: 32px; height: 32px; padding-left: 15px; float: left; font-weight: normal}
+.nav .top .news .title a{ font-size: 12px; color: #666; line-height: 32px; padding-right: 15px; float: right; display: block}
+.nav .top .news .title a:hover{ color: #c81623}
+.nav .top .news .title i{ padding-left: 8px;}
+
+.nav .top .news .news_top ul{ padding:5px 0 5px 15px;}
+.nav .top .news .news_top li{ line-height: 24px; height: 24px; width: 220px; overflow: hidden}
+.nav .top .news .news_top li a{ font-size: 13px; color: #666; font-family: "宋体"}
+.nav .top .news .news_top li span{ font-weight: bolder}
+.nav .top .news .news_top li a:hover{ color: #c81623}
+
+.nav .top .news .news_mid{height: 208px; border: 1px solid #e4e4e4; border-top: none; border-left:none;overflow: hidden}
+.nav .top .news .news_mid ul{width: 260px;}
+.nav .top .news .news_mid li{ float: left; border-left: 1px solid #e4e4e4; border-bottom: 1px solid #e4e4e4;}
+.nav .top .news .news_mid li a{ width: 62px; height: 70px; display: block; color: #666; font-size: 13px; font-family: "宋体"; text-align: center}
+.nav .top .news .news_mid li a:hover{ color: #c81623}
+.nav .top .news .news_mid li span{ height: 30px; line-height: 30px; display: block}
+.nav .top .news .news_mid li i{ width: 25px; height: 25px; display:inline-block; background: url("../images/57620a6fN77b2b8af.png")no-repeat; margin-top: 13px;}
+.nav .top .news .news_mid li .icon_phon{ background-position:0 0 }
+.nav .top .news .news_mid li .icon_fly{ background-position:0 -27px; }
+.nav .top .news .news_mid li .icon_move{ background-position:0 -52px; }
+.nav .top .news .news_mid li .icon_piay{ background-position:0 -77px; }
+.nav .top .news .news_mid li .icon_lottery{ background-position:0 -102px; }
+.nav .top .news .news_mid li .icon_fuel{ background-position:0 -126px; }
+.nav .top .news .news_mid li .icon_holt{ background-position:0 -151px; }
+.nav .top .news .news_mid li .icon_train{ background-position:0 -176px; }
+.nav .top .news .news_mid li .icon_fund{ background-position:0 -252px; }
+.nav .top .news .news_mid li .icon_cond{ background-position:0 -201px; }
+.nav .top .news .news_mid li .icon_card{ background-position:0 -277px; }
+.nav .top .news .news_mid li .icon_lous{ background-position:0 -227px; }
+.nav .top .news .news_bot{width: 250px; height: 71px; margin-top: 5px; font-size: 0;}
+.nav .top .news .news_bot img{ width: 250px; height: 71px;}
+
+.nav .bot{ padding-top: 10px;}
+.nav .bot .today{width:210px; height: 150px; background: url("../images/homebg_02.png"); font-size: 18px; text-align:  center; float: left}
+.nav .bot .today a{ color: #fff;}
+.nav .bot .today .clock{ width: 44px; height: 44px; border: 10px solid #fff; border-radius: 50%; position: relative; display: inline-block; margin-top: 31px;}
+.nav .bot .today .clock .minute{ width: 5px; height: 20px; border-radius: 5px; transform-origin: center top; background: #fff; position: absolute;left: 44%; top: 50%; animation: minute 60s infinite linear; }
+.nav .bot .today .clock .hours{ width: 7px; height: 15px; border-radius: 7px; transform-origin: center top; background: #fff; position: absolute;left: 44%; top: 50%; animation: minute 180s infinite linear; }
+.nav .bot .today .clock .second{ width: 5px; height: 17px; border-radius: 5px; transform-origin: center top; position: absolute; left: 45%;top: 50%; animation: minute 30s infinite linear}
+.nav .bot .today .clock .second .sec_dott{ width: 5px; height: 5px; display: block; border-radius: 50%; float: left;background: #5e5252; position: absolute; bottom: 0;}
+.nav .bot .today .clock .dott{width: 12px; height: 12px; border-radius: 50%; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); background: #fff;}
+.nav .bot .bot_pic a{ width: 249px; height: 164px; display: block; float: left; margin-right: 1px;}
+.nav .bot .bot_pic a img{ width: 100%}
+
+/************导航区域结束************/
+
+
+.guess{ width: 1210px; margin: 0 auto}
+.guess .title{ padding-top: 16px; border-bottom: 1px solid #d1d1d1}
+.guess .title .left{ float: left}
+.guess .title .left h3{ font-size: 20px; color: #333333; height: 40px; line-height: 40px; float: left}
+.guess .title .left span{ width: 225px; height: 15px; display: inline-block; float: left; background: url("../images/homebg.png")no-repeat 0 -101px; margin: 14px 0 0 7px;}
+.guess .title .change a{ float: right; font-size: 12px; font-family: "宋体"; color: #666; line-height: 38px;height: 38px; padding-top: 2px;}
+.guess .title .change a i{ padding: 0 3px 0 9px; transition: all 0.5s}
+.guess .title .change a:hover{ color: #c81623;}
+.guess .title .change a:hover i{ transform: rotate(-360deg)}
+.guess .br_dong{position: relative}
+.guess .br_dong span{ width: 365px; height: 5px; display: block; background: url("../images/homebg.png")no-repeat 0 -124px; position: absolute; top: -3px; right: 0}
+.guess:hover .br_dong span{ animation: brmove 0.5s 1}
+.guess .guess_list {border: 1px solid #ededed ; border-top: none;}
+.guess .guess_list .list{ width:200px;float: left}
+.guess .guess_list .list .pic{ width:200px; height: 160px;font-size: 0; text-align: center;line-height: 160px; padding-top: 20px;}
+.guess .guess_list .list .text{ padding: 0 36px;}
+.guess .guess_list .list .text a{ font-size: 12px; color: #666; line-height: 18px; height: 36px; display: block; overflow: hidden; font-family: "宋体";}
+.guess .guess_list .list .text a:hover{ color: #b51d1a}
+.guess .guess_list .list .text p{ font-size: 20px; color: #b51d1a; height: 31px; line-height: 31px; padding-bottom: 4px;}
+.guess .guess_list .line{ width: 1px; height: 62px; background: #e6e6e6; float: left; margin-top: 160px;}
+
+/*******************猜你喜欢结束********************/
+
+.pzlive{ width: 1210px; margin: 0 auto;}
+.pzlive .title{ font-size: 20px; line-height: 34px; height: 34px; color: #333; padding-top: 22px;}
+.pzlive .liv_table{ border: 1px solid #ededed}
+.pzlive .liv_left{ float: left}
+.pzlive .liv_left .live_list{ float: left}
+.pzlive .liv_left .live_list .top{width: 403px; height: 247px; overflow: hidden; background: #f7f7f7; border-bottom: 1px solid #ededed; border-right: 1px solid #ededed; position: relative}
+.pzlive .liv_left .live_list .top a>h4{ font-size: 14px; color: #333; height: 40px; line-height: 40px; text-align: center; margin: 0 20px; border-bottom: 1px dashed #e0e0e0}
+.pzlive .liv_left .live_list .top .pic{ width: 403px; height: 205px; overflow: hidden; font-size: 0;}
+.pzlive .live_list .top .content{ position: absolute; top: 100px; left: 30px;}
+.pzlive .live_list .top .content h4{ height: 40px; line-height: 40px;font-size: 16px; color: #333;}
+.pzlive .live_list .top .content p{ height: 18px; line-height: 18px;font-size: 12px;font-family: "宋体"; color: #333;}
+.pzlive .live_list .top .content span{ height: 18px; line-height: 18px;font-size: 12px;font-family: "宋体"; color: #c81623;}
+.pzlive .live_list .bottom{ position: relative}
+.pzlive .live_list .bottom .bot_list{ width: 201px; height: 158px; display: block; border-right: 1px solid #ededed; overflow: hidden; float: left}
+.pzlive .live_list .bottom .content{ position: absolute; top: 38px; margin-left: 10px;}
+.pzlive .live_list .bottom .content h4{ height: 40px; line-height: 40px;font-size: 16px; color: #333; }
+.pzlive .live_list .bottom .content p{ height: 18px; line-height: 18px;font-size: 12px;font-family: "宋体"; color: #333;}
+.pzlive .live_list .bottom .content span{ height: 18px; line-height: 18px;font-size: 12px;font-family: "宋体"; color: #c81623;}
+
+.pzlive .liv_left .live_cen{float: left}
+.pzlive .liv_left .live_cen .top{width: 228px; height: 247px; overflow: hidden; background: #fff; border-bottom: 1px solid #ededed; border-right: 1px solid #ededed; position: relative}
+.pzlive .liv_left .live_cen .top a>h4{ font-size: 14px; color: #333; height: 40px; line-height: 40px; text-align: center; margin: 0 20px; border-bottom: 1px dashed #e0e0e0}
+.pzlive .liv_left .live_cen .top .pic{ width: 228px; height: 205px; overflow: hidden; font-size: 0;}
+.pzlive .live_cen .top .content{ position: absolute; top: 100px; left: 30px;}
+.pzlive .live_cen .top .content h4{ height: 40px; line-height: 40px;font-size: 16px; color: #333;}
+.pzlive .live_cen .top .content p{ height: 18px; line-height: 18px;font-size: 12px;font-family: "宋体"; color: #333;}
+.pzlive .live_cen .top .content span{ height: 18px; line-height: 18px;font-size: 12px;font-family: "宋体"; color: #c81623;}
+
+.pzlive .liv_left .live_cen .bottom{width: 228px; height: 158px; overflow: hidden; background: #fff; border-bottom: 1px solid #ededed; border-right: 1px solid #ededed; position: relative}
+.pzlive .liv_left .live_cen .bottom a>h4{ font-size: 14px; color: #333; height: 40px; line-height: 40px; text-align: center; margin: 0 20px; border-bottom: 1px dashed #e0e0e0}
+.pzlive .liv_left .live_cen .bottom .pic{ width: 228px; height: 158px; overflow: hidden; font-size: 0;}
+.pzlive .live_cen .bottom .content{ position: absolute; top: 38px; margin-left: 10px;}
+.pzlive .live_cen .bottom .content h4{ height: 40px; line-height: 40px;font-size: 16px; color: #333;}
+.pzlive .live_cen .bottom .content p{ height: 18px; line-height: 18px;font-size: 12px;font-family: "宋体"; color: #333;}
+.pzlive .live_cen .bottom .content span{ height: 18px; line-height: 18px;font-size: 12px;font-family: "宋体"; color: #c81623;}
+
+.pzlive .liv_right{float: left; width: 171px;}
+.pzlive .liv_right .list_icon{width: 85px; float: left; border-right: 1px dashed #e0e0e0; font-size: 0; margin-top: 13px; height: 381px; overflow: hidden}
+.pzlive .liv_right ul{ margin-top: -13px;}
+.pzlive .liv_right li{ border-bottom: 1px dashed #e0e0e0; margin-left: 11px;}
+.pzlive .liv_right li a{ width: 85px; text-align: center; display: block; margin-left: -11px;}
+.pzlive .liv_right .list_active{border-right:none;}
+.pzlive .liv_right .list_active li{ margin-left: 0;}
+.pzlive .liv_right .list_active li a{ margin-left: 0;}
+
+.public_banner { padding-top: 20px; font-size: 0;}
+
+.first{ width: 1210px; margin: 0 auto}
+.public_top{ border-bottom: 1px solid #c81623; position: relative}
+.public_top .title{ float: left}
+.public_top .title a{height: 40px; line-height: 40px; font-size: 20px; color: #333;  background: url("../images/nva_bg.png")no-repeat 0 -35px;}
+.public_top .title a span{ font-size: 13px; color: #fff; padding:0 22px 0 3px; font-weight: bolder}
+.public_top .title h3{font-weight: normal;}
+.public_top .title a:hover{ color: #c81623; background-position: 0 0;}
+.public_top .title .ac{color: #c81623; background-position: 0 0;}
+
+.public_top .navbar{ float: right; border: 1px solid #ccc; border-bottom: none; margin-top: 11px;}
+.public_top .navbar li{  float: left; font-size: 12px; color: #666; height: 31px; line-height: 31px; position: relative; border-right: 1px solid transparent; border-left: 1px solid transparent;border-top: 3px solid transparent; margin-top: -1px; padding-top: 1px;}
+.public_top .navbar li a{display: block; padding: 0 15px; color: #666;}
+.public_top .navbar li i{ width: 1px; height: 14px; background: #ccc; position: absolute; top: 10px; right: -2px;}
+.public_top .navbar .active{border-color: #c12e2a}
+.public_top .navbar .active a{ line-height: 32px; background: #fff;}
+.public_top .navbar .active i{display: none}
+/*.public_top .navbar li:hover{border-color: #c12e2a}*/
+/*.public_top .navbar li:hover a{ line-height: 32px; background: #fff;}*/
+/*.public_top .navbar li:hover i{display: none}*/
+
+.first .f_left{ float: left}
+.first .f_left .top_icon{ width: 330px; height: 345px; background: url("../images/577926adNe7149a93.jpg")no-repeat top left; position: relative; overflow: hidden; position: relative}
+.first .f_left .top_icon:before{content: ""; width: 80px; height: 350px; background-image: -moz-linear-gradient(left , rgba(255,255,255,0) 0% , rgba(255,255,255,0.2) 50%,rgba(255,255,255,0) 100%); position: absolute; top: 0; left: -200px; display: block; transform: skewX(-25deg);}
+.first .f_left .top_icon:hover:before{ left: 500px; transition: all 1s}
+.first .f_left .top_icon ul{ position: absolute; bottom: 0; left: 0; padding-left: 5px; background: rgba(255,255,255,0.5) }
+.first .f_left .top_icon ul li{ float: left; padding: 0 20px;}
+.first .f_left .top_icon ul li a{ font-size: 13px; color: #666; height: 26px; line-height: 26px; display:block;background: url("../images/clothesicon.png")no-repeat; padding-left: 31px; margin: 10px 0;}
+.first .f_left .top_icon ul li .top_icon_a{ background-position: 0 -26px;}
+.first .f_left .top_icon ul li .top_icon_b{ background-position: 0 -52px;}
+.first .f_left .top_icon ul li .top_icon_c{ background-position: 0 -78px;}
+.first .f_left .top_icon ul li .top_icon_d{ background-position: 0 -104px;}
+.first .f_left .top_icon ul li .top_icon_e{ background-position: 0 -130px;}
+.first .f_left .top_icon ul li a:hover{ color: #c81623;}
+.first .f_left .top_list{ background: #f5f5f5; width: 330px;}
+
+.first .f_left .top_icon span{ width: 1000px; height: 20px; background: rgba(255,255,255,0.2); position: absolute; top: 200px; left: 0; transform: rotate(-45deg)}
+.first .f_left .top_icon:hover span{ animation: bannrun 1s}
+
+.first .f_left .left{ width:123px; padding: 16px 0 16px 25px; float: left}
+.first .f_left .left a{height: 24px; color: #999; font-size: 12px; font-family: "宋体"; line-height: 24px; display: inline-block; margin-right: 11px;}
+.first .f_left .left .active{ color: #c81623}
+.first .f_left .left a:hover{ color: #c81623}
+.first .f_left .left .top_pic{ width: 330px; height: 160px; font-size: 0;}
+.first .f_left .left .top_pic img{ width: 330px; height: 160px;}
+
+.first .f_mid{ float: left}
+.first .f_mid .f_mid_fis{width: 440px; height: 157px;position: relative; overflow: hidden}
+.first .f_mid .f_mid_fis .text .content,.first .f_mid .f_mid_sec .text .content,.first .f_mid .f_mid_thea .text .content{ position: absolute; top: 26px; left: 30px;}
+.first .f_mid .f_mid_fis .text .content p,.first .f_mid .f_mid_sec .text .content p,.first .f_mid .f_mid_thea .text .content p{font-size: 16px; height: 26px; line-height: 26px; color: #242424;}
+.first .f_mid .f_mid_fis .text .content span,.first .f_mid .f_mid_sec .text .content span,.first .f_mid .f_mid_thea .text .content span{font-size: 16px; height: 24px; line-height: 24px; color: #c81825;}
+
+.first .f_mid .f_mid_sec{width: 440px; height: 316px;position: relative}
+.first .f_mid .f_mid_thea{width: 440px; height: 160px; position: relative}
+
+.first .f_right li{ float: left; width: 220px; height: 158px; position: relative; overflow: hidden}
+.first .f_right li .text .content{ position: absolute; top:26px;left: 19px;}
+.first .f_right li .text .content p{font-size: 16px; height: 26px; line-height: 26px; color: #242424; }
+.first .f_right li .text .content span{font-size: 14px; height: 24px; line-height: 24px; color: #c81825;}
+
+.public_bott{background: #f7f7f7; margin-top: 10px;}
+.public_bott ul{ padding: 13px 0}
+.public_bott li{float: left; padding: 0 10px; border-left: 1px dotted #ccc; height: 39px; line-height: 39px; font-size: 0;}
+.public_bott .active{ border: none;}
+
+.second{ padding-top: 13px; width: 1210px; margin: 0 auto}
+.public_cen{height: 474px;}
+.public_cen .left{width: 210px; height: 474px; float: left; overflow: hidden}
+.public_cen .left .pic{width: 210px; height: 474px; overflow: hidden; font-size: 0; position: relative}
+.public_cen .left .pic:after{content: "";width: 80px; height: 237px; display: block;position: absolute; top: 0; left: -200px; transform: skewX(-45deg); background-image:  -moz-linear-gradient(left , rgba(255,255,255,0) 0% , rgba(255,255,255,0.2) 50%,rgba(255,255,255,0) 100%); z-index: 2}
+.public_cen .left .pic:hover:after{ left: 500px; transition: all 1s}
+.public_cen .left .pu_icon{ height: 92px; width: 210px; background: rgba(255,255,255,0.5); margin-top: -237px; position: relative; z-index: 1; padding-left: 10px;}
+.public_cen .left .pu_icon li{ float: left;padding: 10px 0}
+.public_cen .left .pu_icon li a{width: 67px;height: 26px; line-height: 26px; font-size: 13px; color: #666; background: url("../images/cosmeticsicon.png")no-repeat; padding-left: 31px; display: block}
+
+.public_cen .left .live_icon li a{width:160px; margin-left:30px;}
+
+.public_cen .left .yundong_icon li a{background: url("../images/sportsicon.png")no-repeat;}
+.public_cen .left .jujia_icon li a{background: url("../images/livingsicon.png")no-repeat;}
+.public_cen .left .food_icon li a{background: url("../images/foodsicon.png")no-repeat;}
+.public_cen .left .book_icon li a{background: url("../images/booksicon.png")no-repeat;}
+.public_cen .left .live_icon li a{background: url("../images/lifeicon.png")no-repeat;}
+
+.public_cen .left .pu_icon li .icon_a{background-position: 0 -26px;}
+.public_cen .left .pu_icon li .icon_b{background-position: 0 -52px;}
+.public_cen .left .pu_icon li .icon_c{background-position: 0 -78px;}
+
+.public_cen .left .pu_icon li a:hover,.public_cen .left .pu_list .font a:hover,.public_cen .left .pu_list>a:hover{ color: #c81623}
+.public_cen .left .pu_list{ background: #e9f5fa; padding: 21px 0 21px 25px; position: relative;}
+
+.public_cen .left .yundong{background: #e6f3ec;}
+.public_cen .left .jujia{background: #e8f6fa;}
+
+.public_cen .left .pu_list>a{font-size: 14px; color: #666; height: 25px; line-height: 25px; display: block}
+.public_cen .left .pu_list>a i{}
+.public_cen .left .pu_list .font{ padding-top: 5px;}
+.public_cen .left .pu_list .font a{ font-size: 12px; color: #999; height: 24px; line-height: 24px; margin-right: 10px; display: inline-block}
+.public_cen .left .pu_list .font .active{color: #c81623}
+.public_cen .right{ float: left}
+.public_cen .right .r_left{ float: left}
+.public_cen .right .top{ width: 339px; height: 296px; overflow: hidden; position: relative; display: block; border-bottom: 1px dotted #ccc; border-right: 1px solid #ededed}
+.public_cen .right .top .text,.public_cen .right .bott .text{ position: absolute; top: 24px; left: 28px;}
+.public_cen .right .top .text h3,.public_cen .right .bott .text h3{ font-size: 16px; color: #222; height: 29px; line-height: 29px;font-weight: normal}
+.public_cen .right .top .text p,.public_cen .right .bott .text p{ font-size: 14px; color: #c71523; height: 22px; line-height: 22px;}
+.public_cen .right .bott{ width: 339px; height: 176px; overflow: hidden; position: relative; display: block; border-bottom: 1px solid #ccc; border-right: 1px solid #ededed}
+.public_cen .right .r_right{float: left}
+.public_cen .right .list{width: 220px; height: 474px; float: left}
+.public_cen .right .list .top{width: 219px; height: 296px; border-bottom:1px solid #ededed; border-right: 1px solid #ededed; overflow: hidden}
+.public_cen .right .list .bott1{ width: 219px; height: 176px; overflow: hidden; position: relative; display: block; border-bottom: 1px solid #ccc; border-right: 1px solid #ededed}
+.public_cen .right .list .bott1 .text{ position: absolute; top: 24px; left: 20px;}
+.public_cen .right .list .bott1 .text h3{ font-size: 18px; color: #222; height: 29px; line-height: 29px;font-weight: normal}
+.public_cen .right .list .bott1 .text p{ font-size: 14px; color: #c71523; height: 22px; line-height: 22px;}
+
+.third{width: 1210px; margin: 0 auto}
+.content .con_left{float: left; width: 330px; height: 474px; overflow: hidden;}
+.content .con_left .pic{width: 330px; height: 474px; overflow: hidden; position: relative}
+.content .con_left .pic:after{content: "";width: 80px; height: 237px; display: block; position: absolute; top: 0; left: -200px; transform: skewX(-45deg); background-image:  -moz-linear-gradient(left , rgba(255,255,255,0) 0% , rgba(255,255,255,0.2) 50%,rgba(255,255,255,0) 100%); z-index: 2}
+.content .con_left .pic:hover:after{ left: 500px; transition: all 1s}
+.content .con_left .text{ margin-top: -237px;}
+.content .text .icon_list{ height: 46px; background: rgba(255,255,255,0.5); position: relative; z-index: 1}
+.content .text .icon_list li{float: left; margin-left: 15px;padding: 10px 0;}
+.content .text .icon_list li a{width: 60px; height: 26px; line-height: 26px; display: block; background: url("../images/mobilesicon.png")no-repeat; padding-left: 31px; font-size: 14px; color: #666;}
+.content .text .icon_list li a:hover{color: #c81623}
+.content .text .icon_list li .icon_a{background-position: 0 -26px;}
+.content .text .icon_list li .icon_b{background-position: 0 -52px;}
+
+.content .text .dianqi li a{ width: 100px; background: url("../images/electronicsicon.png")no-repeat;}
+
+.content .list { height: 191px; background: #f0eefe; position: relative; z-index: 1}
+
+.content .jiadian_list{background: #e7f3f3;}
+.content .com_list{background: #e6f3ec;}
+
+.content .list .top{ padding:22px 0 8px 10px;}
+.content .list .top a{ width: 145px; height: 24px; line-height: 24px; display: block; float: left; margin-left: 15px; font-size: 13px; color: #666; overflow: hidden}
+.content .list .top a:hover{ color: #c81623}
+.content .list .bottom{padding-left: 25px;}
+.content .list .bottom li{ float: left; width: 145px; overflow: hidden}
+.content .list .bottom li a{ height: 24px; line-height: 24px; display: block; float: left; margin-right: 12px; font-size: 12px; color: #999;}
+.content .list .bottom li .active{color: #c81623}
+.content .list .bottom li a:hover{ color: #c81623}
+
+.content .con_right{ float: left}
+.content .con_right .bigpic{ float: left}
+.content .con_right .bigpic .top{width: 440px; height: 236px; overflow: hidden; position: relative; display: block}
+.content .con_right .bigpic .content,.content .con_right .bigpic .bot .list .content,.content .con_right .smallpic .smtop .mlist .content,.content .con_right .smallpic .smbott .smlist .content,.public_cen .right .list .top1 .text,.public_cen .right .tenbigpic .top .content,.public_cen .right .tenbigpic .tenbot .tenlist .content{position: absolute; top: 25px; left: 30px;}
+.content .con_right .bigpic .content h3,.content .con_right .bigpic .bot .list .content h3, .content .con_right .smallpic .smtop .mlist .content h3,.content .con_right .smallpic .smbott .smlist .content h3,.public_cen .right .list .top1 .text h3,.public_cen .right .tenbigpic .top .content h3,.public_cen .right .tenbigpic .tenbot .tenlist .content h3{height: 28px; line-height: 28px; font-size: 16px; color: #222; font-weight:normal}
+.content .con_right .bigpic .content p,.content .con_right .bigpic .bot .list .content p,.content .con_right .smallpic .smtop .mlist .content p,.content .con_right .smallpic .smbott .smlist .content p,.public_cen .right .list .top1 .text p, .public_cen .right .tenbigpic .top .content p,.public_cen .right .tenbigpic .tenbot .tenlist .content p{height: 24px; line-height: 24px; font-size: 14px; color: #c81623;}
+.content .con_right .bigpic .bot .list{width: 219px; height: 237px; overflow: hidden; position: relative; display: block; float: left; border-bottom: 1px solid #ededed; border-right: 1px solid #ededed}
+
+.content .con_right .smallpic{ float: left; width: 440px;}
+.content .con_right .smallpic .smtop .mlist{float: left; width: 219px; height: 117px; overflow: hidden; position: relative; border-bottom: 1px solid #ededed; border-right: 1px solid #ededed}
+.content .con_right .smallpic .smtop .mlist .content p{ color: #c81623}
+.content .con_right .smallpic .smbott{ width: 440px; height: 238px; overflow: hidden}
+.content .con_right .smallpic .smbott .smlist{width: 219px; height: 237px; float: left; overflow: hidden; position: relative; border-bottom: 1px solid #ededed; border-right: 1px solid #ededed}
+
+.fourth,.fifth,.sixth,.seventh,.ehghth,.neigth,.ten,.eleven,.twelve{ width: 1210px; margin: 0 auto; padding-top: 10px;}
+
+.public_cen .right .list .top1{width: 219px; height: 236px; overflow: hidden; position: relative; display: block;border-bottom: 1px solid #ededed; border-right: 1px solid #ededed}
+.public_cen .right .list .top1 .pic1{width: 219px; height: 236px; overflow: hidden}
+.public_cen .right .long1 {width: 339px;}
+.public_cen .right .long1 .top1{width: 339px;}
+.public_cen .right .long1 .top1 .pic1{width: 339px;}
+
+
+.public_cen .right .tenbigpic{width:440px; float:left}
+.public_cen .right .tenbigpic .top{width:439px; height:236px; display:block;overflow: hidden; position: relative; border-bottom: 1px solid #ededed; border-right: 1px solid #ededed}
+.public_cen .right .tenbigpic .tenbot .tenlist{width:219px; height:236px; display:block;overflow: hidden; position: relative; border-bottom: 1px solid #ededed; border-right: 1px solid #ededed; float:left;}
+
+.public_cen .right .mingbody{ width:339px; height:473px; border-bottom: 1px solid #ededed; border-right: 1px solid #ededed; float:left}
+.public_cen .right .mingbody>h3{ font-size:20px; color:#666; height:40px; line-height:40px; margin:6px 15px 0 10px; border-bottom:1px solid #e4e4e4; padding-left: 5px;}
+.public_cen .right .mingbody li{ height:79px; margin-top: 21px;}
+.public_cen .right .mingbody li .pic{ width:82px; height:79px; overflow: hidden; text-align: center; font-size: 12px; float: left; }
+.public_cen .right .mingbody li .pic img{width: 48px; height: 48px; border-radius: 50%;}
+.public_cen .right .mingbody li .pic a{ color: #666;}
+.public_cen .right .mingbody li .pic a span{ height: 30px; line-height: 30px; display: block}
+.public_cen .right .mingbody li .content{float: left; width: 256px;}
+.public_cen .right .mingbody li .content .mingleft{height: 79px;width: 79px; overflow: hidden; float: left}
+.public_cen .right .mingbody li .content .mingleft img{width: 79px;}
+.public_cen .right .mingbody li .content .text{height: 79px; float: left; width: 150px; overflow: hidden; margin-left: 10px;}
+.public_cen .right .mingbody li .content .text h4{height: 18px; line-height: 18px; font-size: 14px;white-space:nowrap;width: 145px; overflow: hidden}
+.public_cen .right .mingbody li .content .text span{ width: 130px; height: 44px; background: #f8f8f8; display: block; font-size: 12px; color: #999;line-height: 18px; padding: 10px 0 0 20px; margin-top: 10px; position: relative}
+.public_cen .right .mingbody li .content .text span:before{content: "“";font-size: 40px; position: absolute; top: 15px; left: 5px;}
+.public_cen .right .mingbody li .content .text span:after{content: "”";font-size: 40px; position: absolute; bottom: 8px; right: 5px;}
+
+.public_cen .onlyright{ float:left;}
+.public_cen .onlyright .topp{width:395px; height:237px; display:block; overflow:hidden}
+.public_cen .onlyright .bottom{ width:395px;}
+.public_cen .onlyright .bottom a{width:196px; float:left; display:block; height:118px;border-bottom: 1px solid #ededed; border-right: 1px solid #ededed; overflow:hidden}
+
+.today{width: 1210px; margin: 0 auto}
+.today .left{width: 900px; float: left}
+.today .left h2{width: 900px; font-size: 20px; color: #666; height: 39px; line-height: 39px; padding-top: 16px; border-bottom: 1px solid #e5e5e5; font-weight: normal}
+.today .list_left{float: left; width: 240px;}
+.today .list_left .pic{border: 1px solid #e5e5e5; width: 239px; height: 281px; overflow: hidden; border-top: none; text-align: center;}
+.today .list_left .pic img{ width: 160px; height: 160px; margin-top: 30px; overflow: hidden}
+.today .list_left .pic .text{ width: 190px; overflow: hidden ;display: inline-block; text-align: left}
+.today .list_left .pic .text a{height: 26px; line-height: 26px; padding-top: 14px;font-size: 12px; color: #666; white-space: nowrap}
+.today .list_left .pic .text a:hover,.today .list_right li .text a:hover{color: #c81623}
+.today .list_left .pic .text span,.today .list_right li .text span{height: 20px; line-height: 20px;font-size: 18px; color: #c81623; white-space: nowrap; font-weight: bolder;}
+.today .list_right{ float: left; width: 660px;}
+.today .list_right li{ width: 209px; height: 122px; float: left; border-right: 1px solid #e5e5e5; border-bottom: 1px solid #e5e5e5; padding: 18px 0 0 10px;}
+.today .list_right li .pic{width: 100px; height: 100px; float: left; display: block; overflow: hidden}
+.today .list_right li .text{width: 100px; float: left;}
+.today .list_right li .text a{ line-height: 18px; font-size: 12px;color: #666; height: 36px; overflow: hidden; display: block; padding: 0 5px;}
+.today .right{width: 309px; float: left;}
+.today .right .zoumadeng{width: 309px;height:281px;border-right: 1px solid #e5e5e5; border-bottom: 1px solid #e5e5e5;overflow: hidden}
+.today .right h2{width: 309px; font-size: 20px; color: #666; height: 39px; line-height: 39px; padding-top: 16px; border-bottom: 1px solid #e5e5e5; font-weight: normal}
+.today .right .marquee{width: 306px; overflow: hidden; position: relative}
+.today .right .marquee li{ padding: 33px 0 0 10px; width: 300px; height: 87px;}
+.today .right .marquee li .pic{width: 100px; height: 100px; display: block; float: left; overflow: hidden}
+.today .right .marquee li .text{width: 166px; height: 86px; float: left; margin-left: 10px;}
+.today .right .marquee li .text span{ height: 27px; display: block; background: url("../images/tou_57.jpg")no-repeat; padding-left: 36px; font-size: 12px; line-height: 27px; position: relative}
+.today .right .marquee li .text span:before{content: ""; width: 10px; height: 10px; background: #f8f8f8; position: absolute; top: 60px; left: -5px; transform: rotate(45deg);}
+.today .right .marquee li .text a{width: 147px; height: 54px; display: block; background: #f8f8f8;font-size: 12px; color: #999;line-height: 18px; padding: 10px 0 0 20px; margin-top: 5px; position: relative}
+.today .right .marquee li .text a:before{content: "“";font-size: 40px; position: absolute; top: 15px; left: 5px;}
+.today .right .marquee li .text a:after{content: "”";font-size: 40px; position: absolute; bottom: 8px; right: 5px;}
+
+@keyframes gotop {
+    0%{ top: 0;}
+    100%{ top: -121px;}
+}
+
+.tabhide {display: none}
+#switchtab .ac{display: block}

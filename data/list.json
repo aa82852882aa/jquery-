@@ -1,0 +1,8 @@
+{
+  "手机":[
+    {"image":"../images/phonepublic01.jpg","price":"￥7199","msg":"Apple iPhone 7 Plus (A1661) 128G 玫瑰金色 移动联通电信4G","type":"手机","list":"iPhone 32GB","shop":"京东Apple产品专营店"},
+    {"image":"../images/phonepublic02.jpg","price":"￥3199","msg":"【六月碎屏保】荣耀 畅玩6X 4GB 32GB 全网通4G","type":"手机","list":"双镜头，大内存，长续航","shop":"荣耀官方旗舰店"},
+    {"image":"../images/phonepublic03.jpg","price":"￥5199","msg":"3T (A3010) 6GB+64GB 枪灰版 全网通 双卡双待 移动联通电信4G","type":"手机","list":"iPhone 32GB","shop":"京东Apple产品专营店"},
+    {"image":"../images/phonepublic04.jpg","price":"￥1199","msg":"OPPO R9s 全网通4G+64G 双卡双待","type":"手机","list":"iPhone 32GB","shop":"京东Apple产品专营店"}
+  ]
+}

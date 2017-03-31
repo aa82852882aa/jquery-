@@ -1,0 +1,9 @@
+<div class="container">
+    <a href="#/details?id={{item.id}}" class="col-md-2 picList" ng-repeat="item in phoneList">
+        <div class="pic"><img ng-src="images/{{item.imgSrc}}"></div>
+        <div class="cont">
+            <h3 class="text-danger">{{item.price | currency:"￥"}}</h3>
+            <p>{{item.dis}}</p>
+        </div>
+    </a>
+</div>

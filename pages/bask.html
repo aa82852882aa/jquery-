@@ -1,0 +1,64 @@
+
+<div class="container" style="padding: 40px 0;">
+    <div class=" clearfix">
+        <h4 class="text-danger pull-left" style="margin-top: 10px;">全部商品</h4>
+        <div class="pull-right">
+            <select class="form-control">
+                <option value="">北京朝阳区三环以内</option>
+                <option value="">北京朝阳区三环以内</option>
+                <option value="">北京朝阳区三环以内</option>
+                <option value="">北京朝阳区三环以内</option>
+            </select>
+        </div>
+    </div>
+<hr class="style-one"/>
+<div class="well clearfix">
+    <div class="col-md-1"><input type="checkbox">全选</div>
+    <div class="col-md-6">商品</div>
+    <div class="col-md-1">单价</div>
+    <div class="col-md-2">数量</div>
+    <div class="col-md-1">小计</div>
+    <div class="col-md-1">操作</div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading clearfix">
+        <div class="col-md-1"><button class="btn btn-warning btn-xs">满赠</button></div>
+        <div class="col-md-5"><a href="#">活动商品已购满¥99.00 ，可领取赠品1件 > </a></div>
+        <div class="col-md-4"><a class="btn btn-danger btn-xs">领取赠品</a> <a href="#">领取赠品></a></div>
+        <div class="col-md-1"><p>{{allPro.number * allPro.product.price}}</p></div>
+    </div>
+    <div class="panel-body bg-warning">
+        <div class="col-md-1"><input type="checkbox"></div>
+        <div class="col-md-6">
+            <div class="media">
+                <div class="media-left">
+                    <a href="#">
+                        <img class="media-object" ng-src="images/{{allProBask.product.small[0]}}" alt="vivo">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">vivo X9 全网通</h4>
+                    vivo X9 全网通 4GB+64GB 移动联通电信4G手机 双卡双待 金色
+                </div>
+            </div>
+        </div>
+        <div class="col-md-1">￥1999:00</div>
+        <div class="col-md-2"><input type="text" value="1"></div>
+        <div class="col-md-1">￥1999:00</div>
+        <div class="col-md-1"><button type="button" class="btn btn-link">删除</button></div>
+    </div>
+</div>
+
+<div class="panel panel-danger">
+    <div class="panel-heading clearfix">
+        <div class="col-md-1"><label><input type="checkbox">全选</label></div>
+        <div class="col-md-1"><button class="btn btn-link btn-xs">删除选中的商品</button></div>
+        <div class="col-md-1"><button class="btn btn-link btn-xs">移到我的关注</button></div>
+        <div class="col-md-4"><button class="btn btn-link btn-xs">清除下柜商品</button></div>
+        <div class="col-md-2">已选择1件商品 <span class="glyphicon glyphicon-chevron-up"></span></div>
+        <div class="col-md-2">总价：¥1099.00</div>
+        <div><button type="button" class="btn btn-danger btn-lg">去结算</button></div>
+    </div>
+</div>
+</div>
